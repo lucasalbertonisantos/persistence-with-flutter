@@ -1,0 +1,17 @@
+Flutter:
+- Para gerenciar as dependências e outras configurações o arquivo é o pubspec.yaml
+- Para incluir uma imagem
+1 - Com URL -|-> Image.network(
+                'https://cdn.pixabay.com/photo/2019/10/15/06/03/pinwheel-4550711_960_720.jpg'),
+2 - Com ASSETS -|-> Incluir no pubspec.yaml
+Image.network(
+                'https://cdn.pixabay.com/photo/2019/10/15/06/03/pinwheel-4550711_960_720.jpg'),
+
+
+Intellij
+- Incluir SDK
+File -> Project Structure -> SDK
+https://www.jetbrains.com/help/idea/sdk.html
+https://github.com/codepath/android_guides/wiki/Setting-up-IntelliJ-IDEA
+- Comentar linha
+Ctrl + /
