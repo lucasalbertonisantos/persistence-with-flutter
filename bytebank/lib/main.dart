@@ -15,50 +15,6 @@ class MyApp extends StatelessWidget {
           textTheme: ButtonTextTheme.primary,
         ),
       ),
-//      home: Scaffold(
-//        appBar: AppBar(
-//          title: Text('Dashboard'),
-//        ),
-//        body: Column(
-//          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-//          crossAxisAlignment: CrossAxisAlignment.start,
-//          children: <Widget>[
-//            Image.network(
-//                'https://cdn.pixabay.com/photo/2019/10/15/06/03/pinwheel-4550711_960_720.jpg'),
-//            Padding(
-//              padding: const EdgeInsets.all(8.0),
-//              child: Image.asset('images/bytebank_logo.png'),
-//            ),
-//            Padding(
-//              padding: const EdgeInsets.all(8.0),
-//              child: Container(
-//                padding: const EdgeInsets.all(8.0),
-//                height: 100,
-//                width: 150,
-//                color: Theme.of(context).primaryColor,
-//                child: Column(
-//                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-//                  crossAxisAlignment: CrossAxisAlignment.start,
-//                  children: <Widget>[
-//                    Icon(
-//                      Icons.people,
-//                      color: Colors.white,
-//                      size: 24.0,
-//                    ),
-//                    Text(
-//                      'Contacts',
-//                      style: TextStyle(
-//                        color: Colors.white,
-//                        fontSize: 16.0,
-//                      ),
-//                    ),
-//                  ],
-//                ),
-//              ),
-//            )
-//          ],
-//        ),
-//      ),
       home: Dashboard(),
     );
   }
