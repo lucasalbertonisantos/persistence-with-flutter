@@ -15,3 +15,7 @@ https://www.jetbrains.com/help/idea/sdk.html
 https://github.com/codepath/android_guides/wiki/Setting-up-IntelliJ-IDEA
 - Comentar linha
 Ctrl + /
+
+Gerar APK - executavel android
+Step 1. Flutter clean 
+Step 2. Flutter build apk
