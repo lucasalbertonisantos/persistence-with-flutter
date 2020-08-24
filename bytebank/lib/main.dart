@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
           textTheme: ButtonTextTheme.primary,
         ),
       ),
-      home: ContactForm(),
+      home: Dashboard(),
     );
   }
 }
