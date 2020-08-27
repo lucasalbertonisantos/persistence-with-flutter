@@ -49,17 +49,11 @@ class ContactsList extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          Navigator.of(context)
-              .push(
-                MaterialPageRoute(
-                  builder: (contex) => ContactForm(),
-                ),
-              )
-              .then(
-                (newContact) => debugPrint(
-                  newContact.toString(),
-                ),
-              );
+          Navigator.of(context).push(
+            MaterialPageRoute(
+              builder: (contex) => ContactForm(),
+            ),
+          );
         },
         child: Icon(
           Icons.add,
